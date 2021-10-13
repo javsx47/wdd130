@@ -1,0 +1,62 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid #bbbbbb;
+  padding: 0.5rem;
+  background-color: #eeeeee;
+  display: grid;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+    grid-template-columns: 200px 1fr;
+}
+
+footer{
+    grid-template-columns: 300px 1fr;
+}
+
+
+main {
+  margin: 1rem auto;
+  background-color: #cbdbf1;
+  padding: 1rem;
+}
+
+h1 {
+  color: #000080;
+  font-size: 2.2rem;
+}
+
+h2,h3 {
+    color: #000080;
+    font-size: 1.5rem;
+  }
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo-box {
+  width: 100px;
+  height: auto;
+}
+
+.social {
+    margin: 0 auto;
+}
+
+.mainimage {    
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
