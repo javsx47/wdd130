@@ -40,6 +40,8 @@ h3 {
   font-size: 1.5rem;
 }
 
+
+
 /* Class Selectors */
 
 .mainnav {
@@ -68,6 +70,8 @@ h3 {
 .mainnav li {
   flex: auto;
 }
+
+
 
 .page {
   max-width: 960px;
