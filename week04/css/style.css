@@ -83,8 +83,13 @@ h3 {
 
 .social {
   margin: 0 auto;
+  display: flex;
 }
 
 .mainimage img {
   width: 100%;
+}
+
+.social a {
+  text-decoration: none;
 }

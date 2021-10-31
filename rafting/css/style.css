@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif
+  
+}
+
 }
 
 header,
@@ -71,7 +74,29 @@ h3 {
   flex: auto;
 }
 
+.mainimage img{
+  box-shadow: 5px 5px 20px;
+}
 
+.items img{
+  box-shadow: 5px 5px 20px;
+  border-radius: 5px;
+  width: 445px;
+  margin: 20px;
+  }
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.image1 {
+  grid-column: 3/5;
+  }
+.section1 p{
+justify-content: center;
+align-items: center;
+  }
 
 .page {
   max-width: 960px;
