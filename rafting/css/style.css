@@ -59,14 +59,14 @@ h3 {
   padding: 18px;
   font-size: 1.3rem;
   color: white;
-  background-color: #4d91bb;
+  background-color: #016fb4;
   text-decoration: none;
   display: block;
-  border: 1px solid #016fb4;
+  border: 1px solid #005183;
 }
 
 .mainnav a:hover {
-  color: #4d91bb;
+  color: #016fb4;
   background-color: white;
 }
 
